@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "58437824a477597274b563be562faf22",
+    "content-hash": "0703eaf4a8f272f9f956eebcb7d50483",
     "packages": [
         {
             "name": "10up/elasticpress",
@@ -117,6 +117,31 @@
             "time": "2020-10-26T19:07:29+00:00"
         },
         {
+            "name": "altis/accelerate",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:humanmade/altis-accelerate.git",
+                "reference": "fa4ec9828724d80630b0ba80a568938fffc11c4a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/altis-accelerate/zipball/fa4ec9828724d80630b0ba80a568938fffc11c4a",
+                "reference": "fa4ec9828724d80630b0ba80a568938fffc11c4a",
+                "shasum": ""
+            },
+            "require": {
+                "segmentio/analytics-php": "^1.8"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/humanmade/altis-accelerate/tree/main",
+                "issues": "https://github.com/humanmade/altis-accelerate/issues"
+            },
+            "time": "2021-10-26T16:24:49+00:00"
+        },
+        {
             "name": "altis/altis",
             "version": "9.0.0",
             "source": {
@@ -216,6 +241,38 @@
                 "source": "https://github.com/humanmade/altis-analytics/tree/9.0.0"
             },
             "time": "2021-10-19T11:25:17+00:00"
+        },
+        {
+            "name": "altis/analytics-demo-tools",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/altis-analytics-demo-tools.git",
+                "reference": "20f484adb36accbaeb5a45450c95f87a678d0d6f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/altis-analytics-demo-tools/zipball/20f484adb36accbaeb5a45450c95f87a678d0d6f",
+                "reference": "20f484adb36accbaeb5a45450c95f87a678d0d6f",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Human Made",
+                    "email": "hello@humanmade.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/humanmade/altis-analytics-demo-tools/issues",
+                "source": "https://github.com/humanmade/altis-analytics-demo-tools/tree/master"
+            },
+            "time": "2021-08-17T18:42:09+00:00"
         },
         {
             "name": "altis/aws-analytics",
@@ -2546,6 +2603,29 @@
             "time": "2020-12-01T11:31:20+00:00"
         },
         {
+            "name": "humanmade/demo-publication-checklist",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/humanmade/demo-publication-checklist.git",
+                "reference": "e6c4a1ca7cf0588e0a78c7740657d916c21c402b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/humanmade/demo-publication-checklist/zipball/e6c4a1ca7cf0588e0a78c7740657d916c21c402b",
+                "reference": "e6c4a1ca7cf0588e0a78c7740657d916c21c402b",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "description": "Demo items for the Publication Checklist plugin and Altis feature.",
+            "support": {
+                "source": "https://github.com/humanmade/demo-publication-checklist/tree/master",
+                "issues": "https://github.com/humanmade/demo-publication-checklist/issues"
+            },
+            "time": "2020-07-23T09:53:24+00:00"
+        },
+        {
             "name": "humanmade/disable-accounts",
             "version": "0.2.1",
             "source": {
@@ -2927,16 +3007,16 @@
         },
         {
             "name": "humanmade/smart-media",
-            "version": "0.4.2",
+            "version": "0.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/smart-media.git",
-                "reference": "1aea9eb05353feabb5e672e38b44de54c67b4ef6"
+                "reference": "aff77d25af75a9a48c953ad367fba7e8e89c185b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/smart-media/zipball/1aea9eb05353feabb5e672e38b44de54c67b4ef6",
-                "reference": "1aea9eb05353feabb5e672e38b44de54c67b4ef6",
+                "url": "https://api.github.com/repos/humanmade/smart-media/zipball/aff77d25af75a9a48c953ad367fba7e8e89c185b",
+                "reference": "aff77d25af75a9a48c953ad367fba7e8e89c185b",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -2953,9 +3033,9 @@
             "description": "Smart Media features for HM Cloud",
             "support": {
                 "issues": "https://github.com/humanmade/smart-media/issues",
-                "source": "https://github.com/humanmade/smart-media/tree/0.4.2"
+                "source": "https://github.com/humanmade/smart-media/tree/0.4.3"
             },
-            "time": "2021-11-22T14:48:39+00:00"
+            "time": "2021-12-14T22:24:07+00:00"
         },
         {
             "name": "humanmade/tachyon-plugin",
@@ -5738,6 +5818,61 @@
             "time": "2016-10-03T07:35:21+00:00"
         },
         {
+            "name": "segmentio/analytics-php",
+            "version": "1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/segmentio/analytics-php.git",
+                "reference": "7e25b2f6094632bbfb79e33ca024d533899a2ffe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/segmentio/analytics-php/zipball/7e25b2f6094632bbfb79e33ca024d533899a2ffe",
+                "reference": "7e25b2f6094632bbfb79e33ca024d533899a2ffe",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "overtrue/phplint": "^1.1",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "^3.3"
+            },
+            "bin": [
+                "bin/analytics"
+            ],
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "lib/Segment.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Segment.io <friends@segment.com>",
+                    "homepage": "https://segment.com/"
+                }
+            ],
+            "description": "Segment Analytics PHP Library",
+            "homepage": "https://segment.com/libraries/php",
+            "keywords": [
+                "analytics",
+                "analytics.js",
+                "segment",
+                "segmentio"
+            ],
+            "support": {
+                "issues": "https://github.com/segmentio/analytics-php/issues",
+                "source": "https://github.com/segmentio/analytics-php/tree/1.8.0"
+            },
+            "time": "2021-05-31T22:44:22+00:00"
+        },
+        {
             "name": "stuttter/wp-user-signups",
             "version": "5.0.2",
             "source": {
@@ -6155,6 +6290,24 @@
                 "source": "https://github.com/wp-phpunit/wp-phpunit"
             },
             "time": "2021-11-10T19:49:29+00:00"
+        },
+        {
+            "name": "wpackagist-theme/twentytwenty",
+            "version": "1.8",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/twentytwenty/",
+                "reference": "1.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/twentytwenty.1.8.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/twentytwenty/"
         },
         {
             "name": "xwp/stream",
@@ -6626,7 +6779,11 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "altis/accelerate": 20,
+        "humanmade/demo-publication-checklist": 20,
+        "altis/analytics-demo-tools": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
