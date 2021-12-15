@@ -11,3 +11,9 @@ composer install --no-dev --optimize-autoloader --apcu-autoloader
 #
 # Learn more about build scripts in the Altis documentation:
 # https://www.altis-dxp.com/resources/docs/cloud/build-scripts/
+
+npm install --global yarn
+cd "content/plugins/accelerate"
+yarn
+yarn build
+rm -rf node_modules
